@@ -35,9 +35,13 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array, starting_point)
-  total = 0
+  total =  starting_point
   newarray = []
-  counter = 0
+  counter = 0 
+  while counter < array.length do
+    if total > 0 
+      newarray
+  end
 end
 
 def reduce_to_all_true(array)
