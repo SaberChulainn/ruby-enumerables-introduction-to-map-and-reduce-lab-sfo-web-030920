@@ -52,7 +52,7 @@ def reduce_to_all_true(array)
   return flag
 end
 
-def reduce_to_any_true(source_array)
+def reduce_to_any_true(array)
   flag = false 
   counter = 0 
   while counter < array.length do
