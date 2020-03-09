@@ -51,3 +51,16 @@ def reduce_to_all_true(array)
   end
   return flag
 end
+
+def reduce_to_any_true(source_array)
+  flag = false 
+  counter = 0 
+  while counter < array.length do
+    if array[counter] == true
+        flag = true
+      end
+      counter += -1
+    end
+  end
+  return flag 
+end
