@@ -42,7 +42,7 @@ def reduce_to_total(array, starting_point)
       counter += 1
     end
     if starting_point > 0 
-      total += 100
+      total += starting_point
     end
   return total
 end
