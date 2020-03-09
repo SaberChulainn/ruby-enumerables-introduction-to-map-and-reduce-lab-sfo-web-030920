@@ -39,10 +39,10 @@ def reduce_to_total(array, starting_point)
   newnum = 0
   counter = 0 
   while counter < array.length do
-      newnum = total + array[counter]
+      total = total + array[counter]
       counter += 1
   end
-  return newnum
+  return total
 end
 
 def reduce_to_all_true(array)
