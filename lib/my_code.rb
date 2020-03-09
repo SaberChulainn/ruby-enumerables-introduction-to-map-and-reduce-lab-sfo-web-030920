@@ -44,7 +44,7 @@ def reduce_to_total(array, starting_point)
     if starting_point > 0 
       total += starting_point
     end
-  return total
+   total
 end
 
 def reduce_to_all_true(array)
