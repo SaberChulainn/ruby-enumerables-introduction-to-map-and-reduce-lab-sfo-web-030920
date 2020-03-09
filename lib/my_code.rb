@@ -38,17 +38,6 @@ def reduce_to_total(array, starting_point)
   total = 0
   newarray = []
   counter = 0
-  if starting_point == 0
-  while counter < array.length do
-  
-  counter += 1
-  end
-  else 
-    while starting_point < array.length do
-      
-    end
-  
-
 end
 
 def reduce_to_all_true(array)
