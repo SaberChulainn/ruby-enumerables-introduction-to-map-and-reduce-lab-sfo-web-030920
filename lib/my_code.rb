@@ -36,10 +36,10 @@ end
 
 def reduce_to_total(array, starting_point)
   total =  starting_point
-  newnum = 0
   counter = 0 
   while counter < array.length do
-      newnum = total + array[counter]
+    if starting_point > 0
+      total = total + array[counter]
       counter += 1
   end
   return total
