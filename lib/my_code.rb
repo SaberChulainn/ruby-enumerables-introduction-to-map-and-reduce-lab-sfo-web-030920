@@ -42,6 +42,7 @@ def reduce_to_total(array, starting_point)
       newnum = total + array[counter]
       counter += 1
   end
+  return newnum
 end
 
 def reduce_to_all_true(array)
