@@ -59,7 +59,7 @@ def reduce_to_any_true(array)
     if array[counter] == true
         flag = true
       end
-      counter += -1
+      counter += 1
     end
   return flag 
 end
