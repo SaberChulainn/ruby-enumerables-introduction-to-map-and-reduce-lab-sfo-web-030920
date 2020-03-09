@@ -46,7 +46,8 @@ def reduce_to_all_true(array)
   while counter < array.length do
     if array[counter] == false
       flag = false
+    end
+    counter += 1
   end
-end
   return flag
 end
